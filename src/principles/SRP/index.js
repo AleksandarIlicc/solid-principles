@@ -1,9 +1,7 @@
-import { Bad } from "./bad";
-import { Good } from "./good";
-// import GPT4 from "./GPT4";
+import { Bad } from "./withoutSRP/bad";
+import { Good } from "./withSRP/good";
 
 export function SRP() {
   // return <Bad />;
   return <Good />;
-  // return <GPT4 />;
 }
